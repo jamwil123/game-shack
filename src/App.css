@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
+.App {
+  text-align: center;
+  background: #9F9F92; 
+
+}
+
+.Nav {
+  display: flex;
+  max-height: 5vh;
+  background: #6D6466;
+  
+}
+
+.Home{
+  background: rgb(2,0,36);
+  background: #9F9F92; 
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.NavTitle {
+color: pink; 
+font-family: 'Fjalla One', sans-serif;
+text-decoration: none;
+}
+
+.NavDropdown {
+  height: 40px;
+  width: 200px;
+  display: flex; 
+ margin-left: auto;
+ align-self:flex-end;
+}
+
+.NavButton {
+  height: 40px;
+  width: 75px;
+  margin-top: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 51%;
+  border-radius: 20px;
+
+  
+}
+.TitleName {
+  border-bottom : solid black 1px
+}
+
+
+.ReviewBody,
+.TitleName,
+.SingleReviewBody,
+.SingleReviewTitle {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-bottom : solid black 1px;
+  font-family: 'Lato', sans-serif;
+  
+
+
+}
+
+.ReviewBody,
+.TitleName,
+.ButtonSection,
+.SingleReviewBody,
+.SingleReviewTitle{
+background-color: grey;
+border-radius: 8px;
+
+} 
+.ReviewBody,
+.TitleName,
+.CommentSection{
+  opacity: 0.5;
+}
+.SingleReview {
+  background-color: #9F9F92; 
+}
+.SingleReviewBody {
+  margin-bottom: 10px;
+}
+
+.ButtonSection {
+
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: gray;
+  margin-bottom: 20px;
+}
+
+.CommentAuthor,
+.CommentBody,
+.CommentTime,
+.CommentVotes,
+.CommentXButton{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-bottom : solid black 1px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  text-align: center;
+
+}
+.CommentXButton {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  
+  
+  
+}
+.CommentSection {
+
+  margin-bottom: 35px;
+
+}
+.CommentBox
+ {
+  display: flex;
+  width: 340px;
+  height: 200px;
+  
+}
+
+/* .CommentSubmitButton {
+  height: 25px;
+  width: 25px;
+} */
+
+.CommentFormUser,
+.CommentSubmitButton,
+.CommentBox{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  text-align: center;
+}
+
+.CommentFormUser {
+  width: 25%;
+text-align: left;
+}
+
+.CommentSubmitButton {
+  width: 100px;
+  position: relative;
+}
+
+.SortBySection {
+  padding:10px;
+  background-color: #6D6466;
+  display: flex;
+}
+
+.SortByDate,
+.SortByVotes {
+}
+
+
+
+
+
+
